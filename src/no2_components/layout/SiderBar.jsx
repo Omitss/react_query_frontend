@@ -65,6 +65,13 @@ const SiderBar = () => {
                     상품 정보
                 </MenuItem>
 
+                <MenuItem
+                    to="/sales"
+                    $active={location.pathname === "/sales"}
+                    onClick={() => setOpen(false)}
+                >
+                    판매정보
+                </MenuItem>
             </Menu>
 
         </Container>
